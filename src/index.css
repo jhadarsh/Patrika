@@ -1,0 +1,12 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/* For Satoshi font – optional fallback */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Regular.woff2') format('woff2');
+  font-weight: normal;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
